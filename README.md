@@ -12,7 +12,7 @@ This SDK provides events logging in android file system and send it via request 
   
 ### Manifest
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.companyname.playpointandroid">
