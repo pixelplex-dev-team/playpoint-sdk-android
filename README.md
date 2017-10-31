@@ -7,7 +7,13 @@ This SDK provides events logging in android file system and send it via request 
   - Add to your App ```AndroidManifest.xml``` activity ```<activity android:name="com.pixelplex.playpointcore.PlayPointActivity" android:exported="true"/>```
   - Override your ```Application``` class and set your app name as application name in Manifest (For example ```android:name=".MyApp"```)
   - In your Application class add ```Logger.initialize(getApplicationContext());``` in ```onCreate()``` method
-  
+
+## Usage
+
+```java
+Logger.getInstance().writeLog(UUID.randomUUID().toString());
+```
+
 ## Setting Samples:
   
 ### Manifest
