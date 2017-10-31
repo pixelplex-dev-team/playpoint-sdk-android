@@ -8,7 +8,7 @@ This SDK provides events logging in android file system and send it via request 
   - Override your ```Application``` class and set your app name as application name in Manifest (For example ```android:name=".MyApp"```)
   - In your Application class add ```Logger.initialize(getApplicationContext());``` in ```onCreate()``` method
   
-## Setting Samples
+## Setting Samples:
   
 ### Manifest
 
@@ -33,4 +33,21 @@ This SDK provides events logging in android file system and send it via request 
         <activity android:name="com.pixelplex.playpointcore.PlayPointActivity" android:exported="true"/>
     </application>
 </manifest>
+```
+
+###Application Class
+
+```
+package com.companyname.playpointandroid;
+
+import android.app.Application;
+import com.pixelplex.playpointcore.Logger;
+
+public class MyApp extends Application {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        Logger.initialize(getApplicationContext());
+    }
+}
 ```
