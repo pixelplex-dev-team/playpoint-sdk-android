@@ -8,9 +8,9 @@ This SDK provides events logging in android file system and send it via request 
   - Override your ```Application``` class and set your app name as application name in Manifest (For example ```android:name=".MyApp"```)
   - In your Application class add ```Logger.initialize(getApplicationContext());``` in ```onCreate()``` method
   
-  ## Setting Samples
+## Setting Samples
   
-  ### Manifest
+### Manifest
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
