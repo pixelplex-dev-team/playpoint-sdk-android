@@ -35,7 +35,7 @@ This SDK provides events logging in android file system and send it via request 
 </manifest>
 ```
 
-###Application Class
+### Application Class
 
 ```
 package com.companyname.playpointandroid;
