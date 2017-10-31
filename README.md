@@ -15,8 +15,7 @@ This SDK provides events logging in android file system and send it via request 
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pixelplex.playpointandroid">
-
+    package="com.companyname.playpointandroid">
     <application
         android:name=".MyApp"
         android:allowBackup="true"
@@ -28,14 +27,10 @@ This SDK provides events logging in android file system and send it via request 
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name="com.pixelplex.playpointcore.PlayPointActivity" android:exported="true"/>
-
     </application>
-
 </manifest>
 ```
